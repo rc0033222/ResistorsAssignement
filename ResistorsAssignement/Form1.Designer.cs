@@ -80,7 +80,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.resistor_diagram;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 229);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 212);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(434, 187);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -92,7 +92,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(458, 450);
+            this.ClientSize = new System.Drawing.Size(458, 402);
             this.Controls.Add(this.button2p);
             this.Controls.Add(this.button1s);
             this.Controls.Add(this.pictureBox1);
