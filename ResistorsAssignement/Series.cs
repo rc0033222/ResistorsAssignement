@@ -41,40 +41,70 @@ namespace ResistorsAssignement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double r1 = Convert.ToDouble(textBox1.Text);
-            double r2 = Convert.ToDouble(textBox2.Text);
-            double rt = r1 + r2;
-            label11.Text = "The Answer is " + rt;
+            try
+            {
+                double r1 = Convert.ToDouble(textBox1.Text);
+                double r2 = Convert.ToDouble(textBox2.Text);
+                double rt = r1 + r2;
+                label11.Text = "The Answer is " + rt;
+            }
+            catch
+            {
+                MessageBox.Show("Enter a number please");
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            double r1 = Convert.ToDouble(textBox1.Text);
-            double r2 = Convert.ToDouble(textBox2.Text);
-            double r3 = Convert.ToDouble(textBox3.Text);
-            double rt = r1 + r2 + r3;
-            label11.Text = "The Answer is " + rt;
+            try
+            {
+
+                double r1 = Convert.ToDouble(textBox1.Text);
+                double r2 = Convert.ToDouble(textBox2.Text);
+                double r3 = Convert.ToDouble(textBox3.Text);
+                double rt = r1 + r2 + r3;
+                label11.Text = "The Answer is " + rt;
+            }
+            catch
+            {
+                MessageBox.Show("Enter a number please");
+            }
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            double r1 = Convert.ToDouble(textBox1.Text);
-            double r2 = Convert.ToDouble(textBox2.Text);
-            double r3 = Convert.ToDouble(textBox3.Text);
-            double r4 = Convert.ToDouble(textBox4.Text);
-            double rt = r1 + r2 + r3 + r4;
-            label11.Text = "The Answer is " + rt;
+            try
+            {
+                double r1 = Convert.ToDouble(textBox1.Text);
+                double r2 = Convert.ToDouble(textBox2.Text);
+                double r3 = Convert.ToDouble(textBox3.Text);
+                double r4 = Convert.ToDouble(textBox4.Text);
+                double rt = r1 + r2 + r3 + r4;
+                label11.Text = "The Answer is " + rt;
+            }
+            catch
+            {
+                MessageBox.Show("Enter a number please");
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            double r1 = Convert.ToDouble(textBox1.Text);
-            double r2 = Convert.ToDouble(textBox2.Text);
-            double r3 = Convert.ToDouble(textBox3.Text);
-            double r4 = Convert.ToDouble(textBox4.Text);
-            double r5 = Convert.ToDouble(textBox5.Text);
-            double rt = r1 + r2 + r3 + r4 + r5;
-            label11.Text = "The Answer is " + rt;
+            try
+            {
+                double r1 = Convert.ToDouble(textBox1.Text);
+                double r2 = Convert.ToDouble(textBox2.Text);
+                double r3 = Convert.ToDouble(textBox3.Text);
+                double r4 = Convert.ToDouble(textBox4.Text);
+                double r5 = Convert.ToDouble(textBox5.Text);
+                double rt = r1 + r2 + r3 + r4 + r5;
+                label11.Text = "The Answer is " + rt;
+            }
+            catch
+            {
+                MessageBox.Show("Enter a number please");
+            }
         }
     }
 }
