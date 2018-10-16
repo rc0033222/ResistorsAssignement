@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1s = new System.Windows.Forms.Button();
             this.button2p = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,16 +48,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome to the resistor calculator";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.resistor_diagram;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 229);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(434, 187);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // button1s
             // 
             this.button1s.BackColor = System.Drawing.Color.White;
@@ -71,6 +61,7 @@
             this.button1s.TabIndex = 2;
             this.button1s.Text = "Series";
             this.button1s.UseVisualStyleBackColor = false;
+            this.button1s.Click += new System.EventHandler(this.button1s_Click);
             // 
             // button2p
             // 
@@ -84,6 +75,17 @@
             this.button2p.TabIndex = 3;
             this.button2p.Text = "Parallel";
             this.button2p.UseVisualStyleBackColor = false;
+            this.button2p.Click += new System.EventHandler(this.button2p_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.resistor_diagram;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 229);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(434, 187);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 

@@ -16,5 +16,12 @@ namespace ResistorsAssignement
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var newForm = new Form1();
+            newForm.Show();
+        }
     }
 }
