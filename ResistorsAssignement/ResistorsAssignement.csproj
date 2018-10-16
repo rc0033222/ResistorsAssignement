@@ -103,5 +103,11 @@
   <ItemGroup>
     <None Include="Resources\resistor diagram.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\series.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

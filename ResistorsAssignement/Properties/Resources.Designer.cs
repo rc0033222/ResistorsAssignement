@@ -73,9 +73,29 @@ namespace ResistorsAssignement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap parallel {
+            get {
+                object obj = ResourceManager.GetObject("parallel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap resistor_diagram {
             get {
                 object obj = ResourceManager.GetObject("resistor_diagram", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap series {
+            get {
+                object obj = ResourceManager.GetObject("series", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -50,6 +50,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +59,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(168, 11);
+            this.label1.Location = new System.Drawing.Point(170, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 31);
             this.label1.TabIndex = 0;
@@ -70,7 +72,7 @@
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(1, 1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 56);
+            this.button1.Size = new System.Drawing.Size(122, 76);
             this.button1.TabIndex = 1;
             this.button1.Text = "Home";
             this.button1.UseVisualStyleBackColor = false;
@@ -252,12 +254,23 @@
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 21;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.parallel;
+            this.pictureBox1.Location = new System.Drawing.Point(326, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(131, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 40;
+            this.pictureBox1.TabStop = false;
+            // 
             // Parallel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(459, 395);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -284,6 +297,7 @@
             this.MinimizeBox = false;
             this.Name = "Parallel";
             this.Text = "Parallel";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -312,5 +326,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
