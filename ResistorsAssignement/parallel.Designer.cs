@@ -83,7 +83,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(171, 322);
+            this.label11.Location = new System.Drawing.Point(57, 321);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(89, 25);
             this.label11.TabIndex = 39;
@@ -191,6 +191,7 @@
             this.button5.TabIndex = 29;
             this.button5.Text = "Add 5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -200,6 +201,7 @@
             this.button4.TabIndex = 28;
             this.button4.Text = "Add 4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -223,14 +225,14 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(100, 168);
+            this.textBox5.Location = new System.Drawing.Point(232, 170);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 25;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(237, 168);
+            this.textBox4.Location = new System.Drawing.Point(100, 170);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 24;
