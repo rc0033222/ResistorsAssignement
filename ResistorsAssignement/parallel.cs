@@ -16,7 +16,7 @@ namespace ResistorsAssignement
         {
             InitializeComponent();
         }
-
+        // this makes the screen change to the other screen
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -24,7 +24,7 @@ namespace ResistorsAssignement
             newForm.Show();
 
         }
-
+        // this adds the numbers in the first 2 resistor boxes
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -40,7 +40,7 @@ namespace ResistorsAssignement
             }
 
         }
-
+        // this adds the numbers in the first 3 resistor boxes
         private void button3_Click(object sender, EventArgs e)
         {
             try
@@ -56,7 +56,7 @@ namespace ResistorsAssignement
                 MessageBox.Show("Enter a number please");
             }
         }
-
+        // this adds the numbers in the first 4 resistor boxes
         private void button4_Click(object sender, EventArgs e)
         {
             try
@@ -77,7 +77,7 @@ namespace ResistorsAssignement
                 MessageBox.Show("Enter a number please");
             }
         }
-
+        // this adds the numbers in the first 5 resistor boxes
         private void button5_Click(object sender, EventArgs e)
         {
             try
@@ -96,7 +96,7 @@ namespace ResistorsAssignement
                 MessageBox.Show("Enter a number please");
             }
         }
-
+        // this makes the exit picture close the app when clicked
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();

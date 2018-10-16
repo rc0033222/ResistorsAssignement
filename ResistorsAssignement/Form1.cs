@@ -16,7 +16,7 @@ namespace ResistorsAssignement
         {
             InitializeComponent();
         }
-
+        // this makes the screen change to the other screen
         private void button1s_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -24,7 +24,7 @@ namespace ResistorsAssignement
             newForm.Show();
             
         }
-
+        // this makes the screen change to the other screen
         private void button2p_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -32,7 +32,7 @@ namespace ResistorsAssignement
             newForm.Show();
            
         }
-
+        // this makes the exit picture close the app when clicked
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
