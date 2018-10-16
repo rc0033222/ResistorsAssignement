@@ -22,6 +22,7 @@ namespace ResistorsAssignement
             this.Hide();
             var newForm = new Series();
             newForm.Show();
+            
         }
 
         private void button2p_Click(object sender, EventArgs e)
@@ -29,6 +30,13 @@ namespace ResistorsAssignement
             this.Hide();
             var newForm = new Parallel();
             newForm.Show();
+           
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Environment.Exit(1);
         }
     }
 }
