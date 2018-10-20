@@ -39,7 +39,7 @@ namespace ResistorsAssignement
             newForm.Show();
 
         }
-        // this adds the numbers in the first 2 resistor boxes
+        // this adds the numbers in the first 2 resistor boxes and changes the image in the picture box to the correct one
         private void button2_Click(object sender, EventArgs e)
         {
             if (pictureBox1.Image == pd)
@@ -64,7 +64,7 @@ namespace ResistorsAssignement
             }
 
         }
-        // this adds the numbers in the first 3 resistor boxes
+        // this adds the numbers in the first 3 resistor boxes and changes the image in the picture box to the correct one
         private void button3_Click(object sender, EventArgs e)
         {
             if (pictureBox1.Image == pd)
@@ -89,7 +89,7 @@ namespace ResistorsAssignement
                 MessageBox.Show("Enter a number please");
             }
         }
-        // this adds the numbers in the first 4 resistor boxes
+        // this adds the numbers in the first 4 resistor boxes and changes the image in the picture box to the correct one
         private void button4_Click(object sender, EventArgs e)
         {
             if (pictureBox1.Image == pd)
@@ -119,7 +119,7 @@ namespace ResistorsAssignement
                 MessageBox.Show("Enter a number please");
             }
         }
-        // this adds the numbers in the first 5 resistor boxes
+        // this adds the numbers in the first 5 resistor boxes and changes the image in the picture box to the correct one
         private void button5_Click(object sender, EventArgs e)
         {
             if (pictureBox1.Image == pd)
