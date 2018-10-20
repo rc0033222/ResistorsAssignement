@@ -9,12 +9,25 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ResistorsAssignement
-{
+{// this creates images objects for me to refer to
     public partial class Series : Form
     {
+        private Image sd;
+        private Image sr2;
+        private Image sr3;
+        private Image sr4;
+        private Image sr5;
+        // this assigns the image objects to the resources
         public Series()
         {
             InitializeComponent();
+
+            sd = Properties.Resources.series;
+            sr2 = Properties.Resources._2seriesresistors;
+            sr3 = Properties.Resources._3seriesresistors;
+            sr4 = Properties.Resources._4seriesresistors;
+            sr5 = Properties.Resources._5seriesresistors;
+
         }
         // this makes the screen change to the other screen
         private void button1_Click(object sender, EventArgs e)
@@ -41,12 +54,25 @@ namespace ResistorsAssignement
         // this calculates the numbers in the first 2 resistor boxes
         private void button2_Click(object sender, EventArgs e)
         {
+
+            if (pictureBox1.Image == sd)
+            {
+                pictureBox1.Image = sr2;
+            }
+            else
+            {
+                pictureBox1.Image = sr2;
+            }
+
+
             try
             {
                 double r1 = Convert.ToDouble(textBox1.Text);
                 double r2 = Convert.ToDouble(textBox2.Text);
                 double rt = r1 + r2;
                 label11.Text = "The Answer is " + rt.ToString("0.00") + "Ω";
+
+                
             }
             catch
             {
@@ -56,6 +82,16 @@ namespace ResistorsAssignement
         // this calculates the numbers in the first 3 resistor boxes
         private void button3_Click(object sender, EventArgs e)
         {
+
+            if (pictureBox1.Image == sd)
+            {
+                pictureBox1.Image = sr3;
+            }
+            else
+            {
+                pictureBox1.Image = sr3;
+            }
+
             try
             {
 
@@ -74,6 +110,15 @@ namespace ResistorsAssignement
         // this calculates the numbers in the first 4 resistor boxes
         private void button4_Click(object sender, EventArgs e)
         {
+            if (pictureBox1.Image == sd)
+            {
+                pictureBox1.Image = sr4;
+            }
+            else
+            {
+                pictureBox1.Image = sr4;
+            }
+
             try
             {
                 double r1 = Convert.ToDouble(textBox1.Text);
@@ -91,6 +136,15 @@ namespace ResistorsAssignement
         // this calculates the numbers in the first 5 resistor boxes
         private void button5_Click(object sender, EventArgs e)
         {
+            if (pictureBox1.Image == sd)
+            {
+                pictureBox1.Image = sr5;
+            }
+            else
+            {
+                pictureBox1.Image = sr5;
+            }
+
             try
             {
                 double r1 = Convert.ToDouble(textBox1.Text);
