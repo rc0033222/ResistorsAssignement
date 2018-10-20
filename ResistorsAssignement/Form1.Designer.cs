@@ -81,7 +81,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::ResistorsAssignement.Properties.Resources.icon_001840_256;
+            this.pictureBox2.Image = global::ResistorsAssignement.Properties.Resources.exit2;
             this.pictureBox2.Location = new System.Drawing.Point(410, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(45, 49);
