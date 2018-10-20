@@ -266,9 +266,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ResistorsAssignement.Properties.Resources.exit2;
-            this.pictureBox2.Location = new System.Drawing.Point(382, 10);
+            this.pictureBox2.Location = new System.Drawing.Point(414, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(76, 42);
+            this.pictureBox2.Size = new System.Drawing.Size(44, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
@@ -277,9 +277,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.series;
-            this.pictureBox1.Location = new System.Drawing.Point(326, 313);
+            this.pictureBox1.Location = new System.Drawing.Point(280, 287);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(175, 107);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
