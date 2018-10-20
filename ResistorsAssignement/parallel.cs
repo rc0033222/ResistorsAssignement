@@ -12,9 +12,24 @@ namespace ResistorsAssignement
 {
     public partial class Parallel : Form
     {
+
+        private Image pd;
+        private Image pr2;
+        private Image pr3;
+        private Image pr4;
+        private Image pr5;
+        // this assigns the image objects to the resources
+
         public Parallel()
         {
             InitializeComponent();
+
+            pd = Properties.Resources.parallel;
+            pr2 = Properties.Resources._2parallelresistors;
+            pr3 = Properties.Resources._3parallelresistors;
+            pr4 = Properties.Resources._4parallelresistors;
+            pr5 = Properties.Resources._5parallelresistors;
+               
         }
         // this makes the screen change to the other screen
         private void button1_Click(object sender, EventArgs e)
@@ -27,6 +42,15 @@ namespace ResistorsAssignement
         // this adds the numbers in the first 2 resistor boxes
         private void button2_Click(object sender, EventArgs e)
         {
+            if (pictureBox1.Image == pd)
+            {
+                pictureBox1.Image = pr2;
+            }
+            else
+            {
+                pictureBox1.Image = pr2;
+            }
+
             try
             {
                 double r1 = Convert.ToDouble(textBox1.Text);
@@ -43,6 +67,15 @@ namespace ResistorsAssignement
         // this adds the numbers in the first 3 resistor boxes
         private void button3_Click(object sender, EventArgs e)
         {
+            if (pictureBox1.Image == pd)
+            {
+                pictureBox1.Image = pr3;
+            }
+            else
+            {
+                pictureBox1.Image = pr3;
+            }
+
             try
             {
                 double r1 = Convert.ToDouble(textBox1.Text);
@@ -59,6 +92,15 @@ namespace ResistorsAssignement
         // this adds the numbers in the first 4 resistor boxes
         private void button4_Click(object sender, EventArgs e)
         {
+            if (pictureBox1.Image == pd)
+            {
+                pictureBox1.Image = pr4;
+            }
+            else
+            {
+                pictureBox1.Image = pr4;
+            }
+
             try
 
 
@@ -80,6 +122,15 @@ namespace ResistorsAssignement
         // this adds the numbers in the first 5 resistor boxes
         private void button5_Click(object sender, EventArgs e)
         {
+            if (pictureBox1.Image == pd)
+            {
+                pictureBox1.Image = pr5;
+            }
+            else
+            {
+                pictureBox1.Image = pr5;
+            }
+
             try
             {
                 double r1 = Convert.ToDouble(textBox1.Text);
