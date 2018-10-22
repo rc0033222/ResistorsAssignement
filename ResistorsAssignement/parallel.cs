@@ -153,19 +153,19 @@ namespace ResistorsAssignement
             this.Close();
             Environment.Exit(1);
         }
-
+        // this makes the screen change to the other screen
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
             var newForm = new Form1();
             newForm.Show();
         }
-
+        // this changes the colour of the form background
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             BackColor = Color.Black;
         }
-
+        // this changes the colour of the form background
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             BackColor = Color.White;

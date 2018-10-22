@@ -21,13 +21,13 @@ namespace ResistorsAssignement
 
             
         }
-        // this makes the screen change to the other screen
+        
         private void button1s_Click(object sender, EventArgs e)
         {
             
             
         }
-        // this makes the screen change to the other screen
+        
         private void button2p_Click(object sender, EventArgs e)
         {
             
@@ -39,24 +39,24 @@ namespace ResistorsAssignement
             this.Close();
             Environment.Exit(1);
         }
-
+        // this sets the form background colour
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             BackColor = Color.White;
         }
-
+        //this sets the form background colour
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             BackColor = Color.Black;
         }
-
+        // this changes the form to the selected one
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             this.Hide();
             var newForm = new Parallel();
             newForm.Show();
         }
-
+        // this changes the form to the selected one
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();

@@ -166,19 +166,19 @@ namespace ResistorsAssignement
             this.Close();
             Environment.Exit(1);
         }
-
+        // this makes the form change to the home one
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
             var newForm = new Form1();
             newForm.Show();
         }
-
+        // this changes the colour of the form background
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             BackColor = Color.White;
         }
-
+        // this changes the colour of the form background
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             BackColor = Color.Black;
