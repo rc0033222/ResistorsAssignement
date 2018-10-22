@@ -81,10 +81,10 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::ResistorsAssignement.Properties.Resources.exit2;
-            this.pictureBox2.Location = new System.Drawing.Point(410, 2);
+            this.pictureBox2.Image = global::ResistorsAssignement.Properties.Resources.exitedit;
+            this.pictureBox2.Location = new System.Drawing.Point(404, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 49);
+            this.pictureBox2.Size = new System.Drawing.Size(54, 49);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;

@@ -173,9 +173,39 @@ namespace ResistorsAssignement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exitedit {
+            get {
+                object obj = ResourceManager.GetObject("exitedit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap homeedit {
+            get {
+                object obj = ResourceManager.GetObject("homeedit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_001840_256 {
             get {
                 object obj = ResourceManager.GetObject("icon_001840_256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lightordarkmodeedit {
+            get {
+                object obj = ResourceManager.GetObject("lightordarkmodeedit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

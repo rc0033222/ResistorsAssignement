@@ -142,5 +142,14 @@
   <ItemGroup>
     <None Include="Resources\exit2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitedit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeedit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightordarkmodeedit.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -166,5 +166,12 @@ namespace ResistorsAssignement
             this.Close();
             Environment.Exit(1);
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var newForm = new Form1();
+            newForm.Show();
+        }
     }
 }
