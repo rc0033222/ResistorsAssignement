@@ -173,5 +173,15 @@ namespace ResistorsAssignement
             var newForm = new Form1();
             newForm.Show();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.White;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.Black;
+        }
     }
 }

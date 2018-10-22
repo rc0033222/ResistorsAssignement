@@ -157,5 +157,29 @@
   <ItemGroup>
     <None Include="Resources\white.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\series.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallelhome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serieshome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newhomepic.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

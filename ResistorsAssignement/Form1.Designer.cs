@@ -29,61 +29,68 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1s = new System.Windows.Forms.Button();
-            this.button2p = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // pictureBox7
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Franklin Gothic Book", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(439, 34);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome to the resistor calculator";
+            this.pictureBox7.Image = global::ResistorsAssignement.Properties.Resources.serieshome;
+            this.pictureBox7.Location = new System.Drawing.Point(64, 106);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(131, 75);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // button1s
+            // pictureBox6
             // 
-            this.button1s.BackColor = System.Drawing.Color.White;
-            this.button1s.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1s.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1s.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1s.ForeColor = System.Drawing.Color.Black;
-            this.button1s.Location = new System.Drawing.Point(55, 127);
-            this.button1s.Name = "button1s";
-            this.button1s.Size = new System.Drawing.Size(105, 65);
-            this.button1s.TabIndex = 2;
-            this.button1s.Text = "Series";
-            this.button1s.UseVisualStyleBackColor = false;
-            this.button1s.Click += new System.EventHandler(this.button1s_Click);
+            this.pictureBox6.Image = global::ResistorsAssignement.Properties.Resources.parallelhome;
+            this.pictureBox6.Location = new System.Drawing.Point(268, 106);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(139, 75);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 8;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
-            // button2p
+            // pictureBox5
             // 
-            this.button2p.BackColor = System.Drawing.Color.White;
-            this.button2p.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2p.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2p.ForeColor = System.Drawing.Color.Black;
-            this.button2p.Location = new System.Drawing.Point(298, 127);
-            this.button2p.Name = "button2p";
-            this.button2p.Size = new System.Drawing.Size(100, 65);
-            this.button2p.TabIndex = 3;
-            this.button2p.Text = "Parallel";
-            this.button2p.UseVisualStyleBackColor = false;
-            this.button2p.Click += new System.EventHandler(this.button2p_Click);
+            this.pictureBox5.Image = global::ResistorsAssignement.Properties.Resources.home;
+            this.pictureBox5.Location = new System.Drawing.Point(1, -1);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(299, 64);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 7;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::ResistorsAssignement.Properties.Resources.light;
+            this.pictureBox4.Location = new System.Drawing.Point(298, 2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(56, 49);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::ResistorsAssignement.Properties.Resources.lightordarkmodeedit;
+            this.pictureBox3.Image = global::ResistorsAssignement.Properties.Resources.dark;
             this.pictureBox3.Location = new System.Drawing.Point(351, 2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(56, 49);
@@ -105,10 +112,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.resistor_diagram;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 245);
+            this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.newhomepic;
+            this.pictureBox1.Location = new System.Drawing.Point(7, 219);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(434, 147);
+            this.pictureBox1.Size = new System.Drawing.Size(445, 173);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -119,33 +126,37 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(458, 402);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button2p);
-            this.Controls.Add(this.button1s);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Resistor Calculator";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1s;
-        private System.Windows.Forms.Button button2p;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 
