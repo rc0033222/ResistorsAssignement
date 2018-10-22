@@ -32,8 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1s = new System.Windows.Forms.Button();
             this.button2p = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -79,6 +81,17 @@
             this.button2p.UseVisualStyleBackColor = false;
             this.button2p.Click += new System.EventHandler(this.button2p_Click);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ResistorsAssignement.Properties.Resources.lightordarkmodeedit;
+            this.pictureBox3.Location = new System.Drawing.Point(351, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(56, 49);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ResistorsAssignement.Properties.Resources.exitedit;
@@ -93,9 +106,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ResistorsAssignement.Properties.Resources.resistor_diagram;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 222);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 245);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(434, 187);
+            this.pictureBox1.Size = new System.Drawing.Size(434, 147);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -106,6 +119,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(458, 402);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button2p);
             this.Controls.Add(this.button1s);
@@ -116,6 +130,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Resistor Calculator";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -130,6 +145,7 @@
         private System.Windows.Forms.Button button1s;
         private System.Windows.Forms.Button button2p;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

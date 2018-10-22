@@ -12,9 +12,14 @@ namespace ResistorsAssignement
 {
     public partial class Form1 : Form
     {
+
+        
+
         public Form1()
         {
             InitializeComponent();
+
+            
         }
         // this makes the screen change to the other screen
         private void button1s_Click(object sender, EventArgs e)
@@ -38,5 +43,10 @@ namespace ResistorsAssignement
             this.Close();
             Environment.Exit(1);
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            
+        }   
     }
 }
