@@ -81,7 +81,7 @@ namespace ResistorsAssignement
                 double r1 = Convert.ToDouble(textBox1.Text);
                 double r2 = Convert.ToDouble(textBox2.Text);
                 double r3 = Convert.ToDouble(textBox3.Text);
-                double rt = (1.0 / r1) + (1.0 / r2) + (1.0 / r3);
+                double rt = 1.0 /((1.0 / r1) + (1.0 / r2) + (1.0 / r3));
                 label11.Text = "The Answer is " + rt.ToString("0.00") + "Ω";
             }
             catch
@@ -110,7 +110,7 @@ namespace ResistorsAssignement
                 double r2 = Convert.ToDouble(textBox2.Text);
                 double r3 = Convert.ToDouble(textBox3.Text);
                 double r4 = Convert.ToDouble(textBox4.Text);
-                double rt = (1.0 / r1) + (1.0 / r2) + (1.0 / r3) + (1.0 / r4);
+                double rt = 1.0 / ((1.0 / r1) + (1.0 / r2) + (1.0 / r3) + (1.0 / r4));
 
                 label11.Text = "The Answer is " + rt.ToString("0.00") + "Ω";
             }
@@ -138,7 +138,7 @@ namespace ResistorsAssignement
                 double r3 = Convert.ToDouble(textBox3.Text);
                 double r4 = Convert.ToDouble(textBox4.Text);
                 double r5 = Convert.ToDouble(textBox5.Text);
-                double rt = (1.0 / r1) + (1.0 / r2) + (1.0 / r3) + (1.0 / r4) + (1.0 / r5);
+                double rt = 1.0 / ((1.0 / r1) + (1.0 / r2) + (1.0 / r3) + (1.0 / r4) + (1.0 / r5));
 
                 label11.Text = "The Answer is " + rt.ToString("0.00") + "Ω";
             }
